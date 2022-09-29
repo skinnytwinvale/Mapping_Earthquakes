@@ -8,7 +8,7 @@
 4. ***Deliverable 4***: A written report on the Mapping Earthquakes analysis [`README.md`](https://github.com/emmanuelmartinezs/Mapping_Earthquakes/). 
  
 
-## Resources and Before Start Notes:
+## Resources and Before Start Notes:  
 
 * Data Source: `tectonic_plate_starter_logic.js`, `tectonic_plate_starter_logic.js`, `tectonic_plate_starter_logic.js` and `index.html`
 * Data Tools: JavaScript, JSON, GeoJSON and IO (Web Server)
