@@ -54,9 +54,6 @@ The [`Leaflet Quick Start Guide`](https://leafletjs.com/examples/quick-start/) p
 We can copy this tile layer code and assign it to the streets variable, since the tile layer will create a street-level map. Add the following code block to your `logic.js` file:
 
 ````js
-// COLUMBIA ENGINEERING 
-// By Emmanuel Martinez
-// Module 13
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -102,9 +99,6 @@ Your final map should look similar to the following image:
 
 
 ````js
-// COLUMBIA ENGINEERING 
-// By Emmanuel Martinez
-// Module 13
 
 // 1. Add a 2nd layer group for the tectonic plate data.
 let allEarthquakes = new L.LayerGroup();
@@ -125,9 +119,7 @@ let tectonicPlates = new L.LayerGroup();
 
 
 ````js
-// COLUMBIA ENGINEERING 
-// By Emmanuel Martinez
-// Module 13
+
 
 // 2. Add a reference to the tectonic plates group to the overlays object.
 let overlays = {
@@ -197,9 +189,6 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
 
 ````js
-// COLUMBIA ENGINEERING 
-// By Emmanuel Martinez
-// Module 13
 
   // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
   d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(plateData) {
@@ -225,9 +214,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
 
 ````js
-// COLUMBIA ENGINEERING 
-// By Emmanuel Martinez
-// Module 13
+
 
       // Then add the tectonicplates layer to the map.
       tectonicPlates.addTo(map);
@@ -272,8 +259,7 @@ Your final map should look similar to the following image:
 
 ````js
 // DELIVERABLE 2
-// By Emmanuel Martinez
-// Module 13
+
 
 // 1. Add a 3rd layer group for the tectonic plate data.
 let allEarthquakes = new L.LayerGroup();
@@ -295,9 +281,6 @@ let majorEarthquakes = new L.LayerGroup();
 
 
 ````js
-// DELIVERABLE 2
-// By Emmanuel Martinez
-// Module 13
 
 // 2. Add a reference to the tectonic plates group to the overlays object.
 let overlays = {
@@ -324,9 +307,6 @@ let overlays = {
 
 
 ````js
-// DELIVERABLE 2
-// By Emmanuel Martinez
-// Module 13
 
 
 // 3. Retrieve the major earthquake GeoJSON data >4.5 mag for the week.
@@ -450,9 +430,6 @@ Your final map should look similar to the following image:
 
 
 ````js
-// DELIVERABLE 3
-// By Emmanuel Martinez
-// Module 13
 
 // We create a third tile layer that will be the background of our map.
 let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -477,9 +454,6 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{
 
 
 ````js
-// DELIVERABLE 3
-// By Emmanuel Martinez
-// Module 13
 
 // Create a base layer that holds all three maps.
 let baseMaps = {
